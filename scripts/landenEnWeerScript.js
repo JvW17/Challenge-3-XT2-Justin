@@ -163,6 +163,8 @@
       /* Onderstaande regels code verwijderd de windsnelheid. */
       var windsnelheid = document.getElementById('windsnelheid');
       windsnelheid.innerHTML = '';
+
+
     }
 
 
