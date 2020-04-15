@@ -3,9 +3,11 @@
 https://jvw17.github.io/Challenge-3-XT2-Justin/
 
 In het kort
+
 Voor deze challenge heb ik een soort dashboard gemaakt voor de Marsbewoners die terugkeren naar de aarde. In het dashboard kunnen ze een land intikken om vervolgens meer informatie te krijgen over dat land. Zo is algemene informatie over het ingevoerde land te lezen, is de vlag te zien en het weer in de hoofdstad van dat land. De gebruiker hoeft niet de volledige naam van het land in te tikken, een deel van de naam is al voldoende.
 
 Even uitgebreid
+
 Mijn website maakt gebruik van de volgende twee API's:
 
 1. REST Countries, https://restcountries.eu/
@@ -24,12 +26,14 @@ Deze API haalt informatie op over het weer in de hoofdstad van het ingevoerde la
 Onder het kopje 'Weather in the capital' is het weer in de hoofdstad te vinden. Er is een plaatje van het weer + temperatuur, beschrijving van het weer en de windsnelheid in km/h. Ik heb voor deze vier weergegevens gekozen omdat ik vind dat de Marsbewonders zich zo voor kunnen stellen wat het weer in de hoofdstad is.
 
 Foutmelding
+
 Als de gebruiker een typfout maakt of iets invuld dat geen land is, geeft de pagina een foutmelding. Daarbij gebeurt het volgende:
 1. De tekst onder het kopje 'Country information' verdwijnt
 2. Onder het kopje 'Weather in the capital' verdwijnt de afbeelding van het weer en de bijbehorende tekst. In de plaats verschijnt de tekst: 'Loading...' en 'Please wait.'
 3. Onder het kopje 'Flag of the country' verschijnt in het rood de foutmelding 'Please try again. Did you make a spelling mistake?' Deze foutmelding is rood zodat deze extra opvalt.
 
 Algemene informatie over de webpagina
+
 - De hele webpagina is in het Engels, omdat de twee gebruikte API's hun data alleen in het Engels ophalen. Daarom vond ik het niet verstandig om de webpagina in het Nederlands te maken.
 - Als de gebruiker op de zoekknop klikt, wordt deze kort oranje. Dit zodat de gebruiker het idee krijgt dat de webpagina niet vastloopt als deze op de zoekknop klikt en er niks gebeurt.
 - Ik wil niet dat de Marsbewoners op Antarctica landen, want daar is het erg koud en onbegaanbaar. Daarom heb ik ervoor gezorgd dat de webpagina geen gegevens laat zien als de gebruiker Antarctica invoert. Tevens is Antarctica een continent en geen land!
