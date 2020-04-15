@@ -8,7 +8,7 @@ https://jvw17.github.io/Challenge-3-XT2-Justin/
 
 1. <b>REST Countries</b>, https://restcountries.eu/<br/>
 Deze API haalt een hele rits aan informatie op over het ingevoerde land (wat naast de webpagina ook steeds in de console terug te vinden is). Ik heb een deel van deze opgehaalde informatie weergegeven onder het kopje 'Country information,' het onderste blok op de pagina. Ik heb geprobeerd om nuttige informatie weer te geven over het land voor de Marsbewonders, zodat deze meer te weten kunnen komen over het land waar ze mogelijk willen landen. Zo kunnen deze erachter komen... <br/>
- ... wat de naam van het land is in de taal die gesproken wordt in het land (Native name, zo krijgen de Marsbewoners een indruk van de-  taal die er gesproken wordt). <br/>
+ ... wat de naam van het land is in de taal die gesproken wordt in het land (Native name, zo krijgen de Marsbewoners een indruk van de  taal die er gesproken wordt). <br/>
 ... waar het land ongeveer op aarde ligt (Region en Subregion).
 ... wat de hoofdstad is (Capital). <br/>
 ... welk betaalmiddel in het land gebruikt wordt en wat het symbool daarvan is (Currency + symbol, handig als de Marsbewonders iets willen kopen in het land). <br/>
