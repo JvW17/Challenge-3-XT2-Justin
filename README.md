@@ -2,6 +2,9 @@
 
 https://jvw17.github.io/Challenge-3-XT2-Justin/
 
+<b>OPMERKING VOORDAT JE VERDER LEEST</b><br />
+Laat de pagina geen resultaten zien nadat je op de zoekknop hebt geklikt? Scroll helemaal naar onderen, daar leg ik verder uit waarom dit kan gebeuren.
+
 <b>In het kort:</b> voor deze challenge heb ik een soort dashboard gemaakt voor de Marsbewoners die terugkeren naar de aarde. In het dashboard kunnen ze een land intikken om vervolgens meer informatie te krijgen over dat land. Zo is algemene informatie over het ingevoerde land te lezen, is de vlag te zien en het weer in de hoofdstad van dat land. De gebruiker hoeft niet de volledige naam van het land in te tikken, een deel van de naam is al voldoende.
 
 <b>Even uitgebreid:</b> mijn website maakt gebruik van de volgende twee API's:
