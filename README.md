@@ -3,7 +3,7 @@
 https://jvw17.github.io/Challenge-3-XT2-Justin/
 
 <b>OPMERKING VOORDAT JE VERDER LEEST</b><br />
-Laat de pagina geen resultaten zien nadat je op de zoekknop hebt geklikt? Waarschijnlijk ben je dan te snel. De REST Countries API heeft <b>soms</b> een paar seconden de tijd nodig om nieuwe data op te halen. Wacht deze rustig af. Als deze API niet werkt, werkt de OpenWeather API ook niet.
+Laat de pagina niet onmiddelijk resultaten zien nadat je op de zoekknop hebt geklikt? Waarschijnlijk ben je dan te snel. De REST Countries API heeft <b>soms</b> een paar seconden de tijd nodig om nieuwe data op te halen. Wacht deze rustig af. Als deze API niet werkt, werkt de OpenWeather API ook niet.
 
 <b>In het kort:</b> voor deze challenge heb ik een soort dashboard gemaakt voor de Marsbewoners die terugkeren naar de aarde. In het dashboard kunnen ze een land intikken om vervolgens meer informatie te krijgen over dat land. Zo is algemene informatie over het ingevoerde land te lezen, is de vlag te zien en het weer in de hoofdstad van dat land. De gebruiker hoeft niet de volledige naam van het land in te tikken, een deel van de naam is al voldoende.
 
