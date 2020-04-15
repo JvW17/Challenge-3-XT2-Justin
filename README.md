@@ -8,14 +8,14 @@ Even uitgebreid: mijn website maakt gebruik van de volgende twee API's:
 
 1. REST Countries, https://restcountries.eu/
 Deze API haalt een hele rits aan informatie op over het ingevoerde land (wat naast de webpagina ook steeds in de console terug te vinden is). Ik heb een deel van deze opgehaalde informatie weergegeven onder het kopje 'Country information,' het onderste blok op de pagina. Ik heb geprobeerd om nuttige informatie weer te geven over het land voor de Marsbewonders, zodat deze meer te weten kunnen komen over het land waar ze mogelijk willen landen. Zo kunnen deze erachter komen...
-... wat de naam van het land is in de taal die gesproken wordt in het land (Native name, zo krijgen de Marsbewoners een indruk van de taal die er gesproken wordt).
-... waar het land ongeveer op aarde ligt (Region en Subregion).
-... wat de hoofdstad is (Capital).
-... welk betaalmiddel in het land gebruikt wordt en wat het symbool daarvan is (Currency + symbol, handig als de Marsbewonders wat willen kopen in het land).
-... hoeveel mensen in het land wonen (Population).
-... hoe groot het land is (Area in km²).
-... wat het landnummer is (Calling Code, handig voor als de Marsbewoners naar iemand willen bellen in het land. Zo weten ze welk nummer ze eerst voor een telefoonnummer in moeten toetsen. Bij Nederland is dit bijvoorbeeld 31).
-... wat de vlag van het land is. Deze is te zien onder het kopje 'Flag of the country'.
+- ... wat de naam van het land is in de taal die gesproken wordt in het land (Native name, zo krijgen de Marsbewoners een indruk van de-  taal die er gesproken wordt).
+- ... waar het land ongeveer op aarde ligt (Region en Subregion).
+- ... wat de hoofdstad is (Capital).
+- ... welk betaalmiddel in het land gebruikt wordt en wat het symbool daarvan is (Currency + symbol, handig als de Marsbewonders wat willen kopen in het land).
+- ... hoeveel mensen in het land wonen (Population).
+- ... hoe groot het land is (Area in km²).
+- ... wat het landnummer is (Calling Code, handig voor als de Marsbewoners naar iemand willen bellen in het land. Zo weten ze welk nummer ze eerst voor een telefoonnummer in moeten toetsen. Bij Nederland is dit bijvoorbeeld 31).
+- ... wat de vlag van het land is. Deze is te zien onder het kopje 'Flag of the country'.
 
 2. OpenWeather (heel origineel, ik weet het), https://openweathermap.org/current
 Deze API haalt informatie op over het weer in de hoofdstad van het ingevoerde land. Hoe werkt dat precies? Deze API is gekoppeld met de andere API. Nadat de gebruiker een (deel van een) land heeft ingetikt in de zoekbalk, haalt de REST Countries API de data op van het ingevoerde land. Daarbij wordt ook de hoofdstad opgehaald. In mijn JS code in regel 30 is terug te vinden dat ik een variabele heb gemaakt waarvan de waarde de opgehaalde hoofdstad is. Deze variabele heb ik geplaatst in de URL die opgehaald moet worden door de OpenWeather API (regel 37). Oftewel: de OpenWeather API haalt de hoofdstad op uit de data die de REST Countries API heeft opgehaald. Vervolgens haalt de OpenWeather API het weer in de hoofdstad op.
