@@ -33,3 +33,6 @@ Als de gebruiker een typfout maakt of iets invuld dat geen land is, geeft de pag
 - Als de gebruiker op de zoekknop klikt, wordt deze kort oranje. Dit zodat de gebruiker het idee krijgt dat de webpagina niet vastloopt als deze op de zoekknop klikt en er niks gebeurt.
 - Ik wil niet dat de Marsbewoners op Antarctica landen, want daar is het erg koud en onbegaanbaar. Daarom heb ik ervoor gezorgd dat de webpagina geen gegevens laat zien als de gebruiker Antarctica invoert. Tevens is Antarctica een continent en geen land!
 
+<b>Werkt de webpagina niet?</b><br />
+Laat de pagina geen resultaten zien nadat je op de zoekknop hebt geklikt? Waarschijnlijk ben je dan te snel. De REST Countries API heeft soms een paar seconden de tijd nodig om nieuwe data op te halen. Wacht deze rustig af. Als deze API niet werkt, werkt de OpenWeather API ook niet.
+
