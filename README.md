@@ -2,9 +2,9 @@
 
 https://jvw17.github.io/Challenge-3-XT2-Justin/
 
-In het kort: Voor deze challenge heb ik een soort dashboard gemaakt voor de Marsbewoners die terugkeren naar de aarde. In het dashboard kunnen ze een land intikken om vervolgens meer informatie te krijgen over dat land. Zo is algemene informatie over het ingevoerde land te lezen, is de vlag te zien en het weer in de hoofdstad van dat land. De gebruiker hoeft niet de volledige naam van het land in te tikken, een deel van de naam is al voldoende.
+In het kort: voor deze challenge heb ik een soort dashboard gemaakt voor de Marsbewoners die terugkeren naar de aarde. In het dashboard kunnen ze een land intikken om vervolgens meer informatie te krijgen over dat land. Zo is algemene informatie over het ingevoerde land te lezen, is de vlag te zien en het weer in de hoofdstad van dat land. De gebruiker hoeft niet de volledige naam van het land in te tikken, een deel van de naam is al voldoende.
 
-Even uitgebreid: Mijn website maakt gebruik van de volgende twee API's:
+Even uitgebreid: mijn website maakt gebruik van de volgende twee API's:
 
 1. REST Countries, https://restcountries.eu/
 Deze API haalt een hele rits aan informatie op over het ingevoerde land (wat naast de webpagina ook steeds in de console terug te vinden is). Ik heb een deel van deze opgehaalde informatie weergegeven onder het kopje 'Country information,' het onderste blok op de pagina. Ik heb geprobeerd om nuttige informatie weer te geven over het land voor de Marsbewonders, zodat deze meer te weten kunnen komen over het land waar ze mogelijk willen landen. Zo kunnen deze erachter komen...
