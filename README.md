@@ -25,7 +25,7 @@ Onder het kopje 'Weather in the capital' is het weer in de hoofdstad te vinden. 
 <b>Foutmelding</b> <br/>
 Als de gebruiker een typfout maakt of iets invuld dat geen land is, geeft de pagina een foutmelding. Daarbij gebeurt het volgende:
 1. De tekst onder het kopje 'Country information' verdwijnt
-2. Onder het kopje 'Weather in the capital' verdwijnt de afbeelding van het weer en de bijbehorende tekst. In de plaats verschijnt de tekst: 'Loading...' en 'Please wait.'
+2. Onder het kopje 'Weather in the capital' verdwijnt de afbeelding van het weer en de bijbehorende tekst. In plaats daarvan verschijnt de tekst: 'Loading...' en 'Please wait.'
 3. Onder het kopje 'Flag of the country' verschijnt in het rood de foutmelding 'Please try again. Did you make a spelling mistake?' Deze foutmelding is rood zodat deze extra opvalt.
 
 <b>Algemene informatie over de webpagina</b> <br/>
