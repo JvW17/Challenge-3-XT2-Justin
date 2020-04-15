@@ -20,7 +20,7 @@ Deze API haalt een hele rits aan informatie op over het ingevoerde land (wat naa
 2. <b>OpenWeather (heel origineel, ik weet het)</b>, https://openweathermap.org/current <br/>
 Deze API haalt informatie op over het weer in de hoofdstad van het ingevoerde land. Hoe werkt dat precies? Deze API is gekoppeld met de andere API. Nadat de gebruiker een (deel van een) land heeft ingetikt in de zoekbalk, haalt de REST Countries API de data op van het ingevoerde land. Daarbij wordt ook de hoofdstad opgehaald. In mijn JS code in regel 30 is terug te vinden dat ik een variabele heb gemaakt waarvan de waarde de opgehaalde hoofdstad is. Deze variabele heb ik geplaatst in de URL die opgehaald moet worden door de OpenWeather API (regel 37). <br/>
 <b>Oftewel:</b> de OpenWeather API haalt de hoofdstad op uit de data die de REST Countries API heeft opgehaald. Vervolgens haalt de OpenWeather API het weer in de hoofdstad op.<br/>
-Onder het kopje 'Weather in the capital' is het weer in de hoofdstad te vinden. Er is een plaatje van het weer + temperatuur, beschrijving van het weer en de windsnelheid in km/h. Ik heb voor deze vier weergegevens gekozen omdat ik vind dat de Marsbewonders zich zo voor kunnen stellen wat het weer in de hoofdstad is.
+Onder het kopje 'Weather in the capital' is het weer in de hoofdstad te vinden. Er is een plaatje van het weer, temperatuur, beschrijving van het weer en de windsnelheid in km/h. Ik heb voor deze vier weergegevens gekozen omdat ik vind dat de Marsbewonders zich zo voor kunnen stellen wat het weer in de hoofdstad is.
 
 <b>Foutmelding</b> <br/>
 Als de gebruiker een typfout maakt of iets invuld dat geen land is, geeft de pagina een foutmelding. Daarbij gebeurt het volgende:
