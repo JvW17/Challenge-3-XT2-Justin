@@ -2,9 +2,6 @@
 
 https://jvw17.github.io/Challenge-3-XT2-Justin/
 
-<b>OPMERKING VOORDAT JE VERDER LEEST</b><br />
-Laat de pagina niet onmiddelijk resultaten zien nadat je op de zoekknop hebt geklikt? Waarschijnlijk ben je dan te snel. De REST Countries API heeft <b>soms</b> een paar seconden de tijd nodig om nieuwe data op te halen. Wacht deze rustig af. Als deze API niet werkt, werkt de OpenWeather API ook niet.
-
 <b>In het kort:</b> voor deze challenge heb ik een soort dashboard gemaakt voor de Marsbewoners die terugkeren naar de aarde. In het dashboard kunnen ze een land intikken om vervolgens meer informatie te krijgen over dat land. Zo is algemene informatie over het ingevoerde land te lezen, is de vlag te zien en het weer in de hoofdstad van dat land. De gebruiker hoeft niet de volledige naam van het land in te tikken, een deel van de naam is al voldoende.
 
 <b>Even uitgebreid:</b> mijn website maakt gebruik van de volgende twee API's:
@@ -35,3 +32,6 @@ Als de gebruiker een typfout maakt of iets invuld dat geen land is, geeft de pag
 - De hele webpagina is in het Engels, omdat de twee gebruikte API's hun data alleen in het Engels ophalen. Daarom vond ik het niet verstandig om de webpagina in het Nederlands te maken.
 - Als de gebruiker op de zoekknop klikt, wordt deze kort oranje. Dit zodat de gebruiker het idee krijgt dat de webpagina niet vastloopt als deze op de zoekknop klikt en er niks gebeurt.
 - Ik wil niet dat de Marsbewoners op Antarctica landen, want daar is het erg koud en onbegaanbaar. Daarom heb ik ervoor gezorgd dat de webpagina geen gegevens laat zien als de gebruiker Antarctica invoert. Tevens is Antarctica een continent en geen land!
+
+<b>Werkt de webpagina niet?</b><br />
+Laat de pagina niet onmiddelijk resultaten zien nadat je op de zoekknop hebt geklikt? Waarschijnlijk ben je dan te snel. De REST Countries API heeft <b>soms</b> een paar seconden de tijd nodig om nieuwe data op te halen. Wacht deze rustig af. Als deze API niet werkt, werkt de OpenWeather API ook niet.
