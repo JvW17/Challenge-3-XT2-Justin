@@ -7,7 +7,7 @@ In het kort: voor deze challenge heb ik een soort dashboard gemaakt voor de Mars
 Even uitgebreid: mijn website maakt gebruik van de volgende twee API's:
 
 1. REST Countries, https://restcountries.eu/
-Deze API haalt een hele rits aan informatie op over het ingevoerde land (wat naast de webpagina ook steeds in de console terug te vinden is). Ik heb een deel van deze opgehaalde informatie weergegeven onder het kopje 'Country information,' het onderste blok op de pagina. Ik heb geprobeerd om nuttige informatie weer te geven over het land voor de Marsbewonders, zodat deze meer te weten kunnen komen over het land waar ze mogelijk willen landen. Zo kunnen deze erachter komen...
+- Deze API haalt een hele rits aan informatie op over het ingevoerde land (wat naast de webpagina ook steeds in de console terug te vinden is). Ik heb een deel van deze opgehaalde informatie weergegeven onder het kopje 'Country information,' het onderste blok op de pagina. Ik heb geprobeerd om nuttige informatie weer te geven over het land voor de Marsbewonders, zodat deze meer te weten kunnen komen over het land waar ze mogelijk willen landen. Zo kunnen deze erachter komen...
 - ... wat de naam van het land is in de taal die gesproken wordt in het land (Native name, zo krijgen de Marsbewoners een indruk van de-  taal die er gesproken wordt).
 - ... waar het land ongeveer op aarde ligt (Region en Subregion).
 - ... wat de hoofdstad is (Capital).
@@ -18,11 +18,11 @@ Deze API haalt een hele rits aan informatie op over het ingevoerde land (wat naa
 - ... wat de vlag van het land is. Deze is te zien onder het kopje 'Flag of the country'.
 
 2. OpenWeather (heel origineel, ik weet het), https://openweathermap.org/current
-Deze API haalt informatie op over het weer in de hoofdstad van het ingevoerde land. Hoe werkt dat precies? Deze API is gekoppeld met de andere API. Nadat de gebruiker een (deel van een) land heeft ingetikt in de zoekbalk, haalt de REST Countries API de data op van het ingevoerde land. Daarbij wordt ook de hoofdstad opgehaald. In mijn JS code in regel 30 is terug te vinden dat ik een variabele heb gemaakt waarvan de waarde de opgehaalde hoofdstad is. Deze variabele heb ik geplaatst in de URL die opgehaald moet worden door de OpenWeather API (regel 37). Oftewel: de OpenWeather API haalt de hoofdstad op uit de data die de REST Countries API heeft opgehaald. Vervolgens haalt de OpenWeather API het weer in de hoofdstad op.
+- Deze API haalt informatie op over het weer in de hoofdstad van het ingevoerde land. Hoe werkt dat precies? Deze API is gekoppeld met de andere API. Nadat de gebruiker een (deel van een) land heeft ingetikt in de zoekbalk, haalt de REST Countries API de data op van het ingevoerde land. Daarbij wordt ook de hoofdstad opgehaald. In mijn JS code in regel 30 is terug te vinden dat ik een variabele heb gemaakt waarvan de waarde de opgehaalde hoofdstad is. Deze variabele heb ik geplaatst in de URL die opgehaald moet worden door de OpenWeather API (regel 37). Oftewel: de OpenWeather API haalt de hoofdstad op uit de data die de REST Countries API heeft opgehaald. Vervolgens haalt de OpenWeather API het weer in de hoofdstad op.
 Onder het kopje 'Weather in the capital' is het weer in de hoofdstad te vinden. Er is een plaatje van het weer + temperatuur, beschrijving van het weer en de windsnelheid in km/h. Ik heb voor deze vier weergegevens gekozen omdat ik vind dat de Marsbewonders zich zo voor kunnen stellen wat het weer in de hoofdstad is.
 
 - Foutmelding
-Als de gebruiker een typfout maakt of iets invuld dat geen land is, geeft de pagina een foutmelding. Daarbij gebeurt het volgende:
+- Als de gebruiker een typfout maakt of iets invuld dat geen land is, geeft de pagina een foutmelding. Daarbij gebeurt het volgende:
 1. De tekst onder het kopje 'Country information' verdwijnt
 2. Onder het kopje 'Weather in the capital' verdwijnt de afbeelding van het weer en de bijbehorende tekst. In de plaats verschijnt de tekst: 'Loading...' en 'Please wait.'
 3. Onder het kopje 'Flag of the country' verschijnt in het rood de foutmelding 'Please try again. Did you make a spelling mistake?' Deze foutmelding is rood zodat deze extra opvalt.
